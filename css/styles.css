@@ -1,0 +1,140 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #0b090a;
+    font-size: 14px;
+    color: #d3d3d3;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo-brand h2 {
+    font-size: 62px;
+}
+
+h2 span {
+    color: #a4161a;
+}
+
+.entry {
+    background-color: #161a1d;
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 0px 9px 3px #000000;
+    box-shadow: 0px 0px 9px 3px #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #b1a7a6;
+    margin-right: 16px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald',
+    sans-serif;
+    margin:0;
+    text-transform: uppercase;
+
+}
+img {
+    max-width: 100%;
+}
+header {
+    margin-bottom: 60px;
+}
+
+/* layout */
+.navbar {
+    background: #161a1d;
+}
+
+.container-header {
+    height: 70px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    background-image: url(../img/03.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+    background-attachment: fixed;
+}
+
+.heading-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+article {
+      width: 32%;
+      padding-bottom: auto;
+      margin-bottom: 2%;
+      /* (100-32*3)/2 */
+      
+}
+
+.entry img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
+}
+
+.content {
+    margin-bottom: 1rem;
+    font-family: 'Quattrocento',
+    serif;
+    padding: 1rem;
+}
+
+.content h3 {
+    line-height: 1rem;
+    color: #a4161a;
+}
+
+.content span {
+    color:#f5f3f4;
+}
+
+.blog-content {
+    color: #b1a7a6;
+}
+
+.button {
+    background-color: #a4161a;
+    color: white;
+    padding: .5rem 1rem;
+    margin-top: .7rem;
+    display: inline-block;
+    text-decoration: none;
+}
+@media screen and (max-width:480px) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+    
+}
